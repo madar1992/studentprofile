@@ -21,8 +21,9 @@ public class StudentController {
         return "New student is added";
     }
 
+    
     @GetMapping("/getAll")
-    public List<Student> list(){
+    public List<Student> listall(){
         return studentService.getAllStudents();
     }
 }
