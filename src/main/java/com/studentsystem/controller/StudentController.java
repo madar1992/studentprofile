@@ -26,4 +26,6 @@ public class StudentController {
     public List<Student> listall(){
         return studentService.getAllStudents();
     }
+    
+    // This is updated code --Nagul
 }
